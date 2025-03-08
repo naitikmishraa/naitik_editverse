@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naitik Mishra - Video Editor Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <audio id="background-music" loop autoplay>
+        <source src="/adore-did-i-tell-u-that-i-miss-u-slowed-lyric-video-128-ytshorts.savetube.me.mp3" type="audio/mp3">
+    </audio>
+</head>
+<body>
+    <div class="particles">
+        <div class="particle" style="left: 10%; top: 20%; width: 8px; height: 8px;"></div>
+        <div class="particle" style="left: 30%; top: 40%; width: 12px; height: 12px;"></div>
+        <div class="particle" style="left: 50%; top: 60%; width: 10px; height: 10px;"></div>
+        <div class="particle" style="left: 70%; top: 30%; width: 15px; height: 15px;"></div>
+        <div class="particle" style="left: 90%; top: 70%; width: 6px; height: 6px;"></div>
+        <div class="particle" style="left: 20%; top: 80%; width: 10px; height: 10px;"></div>
+        <div class="particle" style="left: 60%; top: 10%; width: 8px; height: 8px;"></div>
+        <div class="particle" style="left: 80%; top: 50%; width: 12px; height: 12px;"></div>
+    </div>
+    <div class="music-control">
+        <button id="music-toggle">
+            <i class="fas fa-volume-up"></i>
+        </button>
+    </div>
+    <nav>
+        <div class="logo">NM</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Naitik Mishra</h1>
+            <h2>Professional Video Editor</h2>
+            <p>Bringing stories to life through creative video editing</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Who Am I?</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Allow me to introduce myself – I am Naitik Mishra, a passionate freelancer specializing in video editing and content creation. Since 2022, I've been wholeheartedly immersed in the world of video editing, where my passion thrives. Beyond the screen, I find solace in sketching and painting, adding vibrant strokes to my creative journey.</p>
+                <div class="skills">
+                    <span>After Effects</span>
+                    <span>Premiere Pro</span>
+                    <span>Effects & Transitions</span>
+                    <span>Color Grading</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>This Is What I Do.</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-video">
+                    <video controls>
+                        <source src="/chris and henry_prob3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <h3>Transition Style</h3>
+                <p>Smooth transitions enhance user experience by creating seamless visual flow.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-video">
+                    <video controls>
+                        <source src="/Comp 1_scale_1x_prob-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <h3>Texting & Zstorm Style</h3>
+                <p>Texting meets Zstorm: Crisp, dynamic, and high-energy with a futuristic edge.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-video">
+                    <video controls>
+                        <source src="/naitikbabu_prob4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <h3>Typography & 3D</h3>
+                <p>Typography meets 3D: Bold letterforms with depth, dimension, and dynamic impact.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-video">
+                    <video controls>
+                        <source src="/Thor special edit_scale_1x_prob-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <h3>AMV Style</h3>
+                <p>AMV Style: Fast-paced, cinematic edits with synchronized beats and vibrant visuals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-work">
+        <h2>More of My Work</h2>
+        <p>You Can See My Work On These Platforms</p>
+        <div class="social-platforms">
+            <a href="https://www.youtube.com/@naitikmishra3066" target="_blank" class="platform-card youtube">
+                <i class="fab fa-youtube"></i>
+                <h3>YouTube</h3>
+            </a>
+            <a href="https://www.instagram.com/naitik_editverse/" target="_blank" class="platform-card instagram">
+                <i class="fab fa-instagram"></i>
+                <h3>Instagram</h3>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" action="mailto:your.email@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Naitik Mishra. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
